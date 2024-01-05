@@ -93,25 +93,26 @@
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
 }
-/** Box 4**/
+/** box 4**/
 .lang-selector{
-  height: 35px;
-  width: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2px;
-}
-.lang-selector a{
-  font-weight: 700;
-  font-size: 14px;
-}
-.lang-logo{
-  background-image: url("us.png");
-  background-size: cover;
-   height: 20px;
-   width: 20px;
-}
+    height: 35px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  .lang-selector a{
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .lang-logo{
+    background-image: url("us.png");
+    background-size: cover;
+     height: 20px;
+     width: 20px;
+  }
+  
 /** box 5**/
 
 span{
@@ -123,6 +124,75 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 }
+.nav-signin{
+    position:relative;
+    padding:10px;
+
+}
+
+.acc-list{
+    background-color: white;
+    color: black;
+    width: 450px;
+    height: 320px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    right:0%;
+    
+}
+
+.top-box{
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.806);
+    margin-top: 25px;
+}
+.acc-signin{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.bottom-box{
+    display: flex;
+}
+.your-list{
+    margin-left: 30px;
+}
+.your-list a{
+    font-size: 13px;
+}
+.your-list a:hover{
+    color: #febd68;
+}
+.your-acc{
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+.your-acc a{
+   
+    font-size: 13px;
+}
+.your-acc a:hover{
+    color: #febd68;
+}
+
+.nav-signin:hover .acc-list{
+    display: block;
+
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 600;
+    
+}
+.nav-cart i{
+    font-size: 30px;
+
+}
+
 
 
 .nav-cart {
@@ -226,6 +296,7 @@ span{
 .box-content p{
     color: #007185;
 }
+
 /* movie section */
 
 .box9
@@ -235,14 +306,14 @@ span{
     background-color: white;
     margin-top: 1rem;
     margin-bottom: 1rem;
-
+    
 }
 .box-moviecontent{
     height: 200px;
     margin: 0px 0px 14px;
     display: flex;
     align-items: center;
-
+  
 }
 
 .box9 h2{
@@ -269,7 +340,7 @@ span{
     height: 125px;
     width: 100%;
     background-color: white;
-
+    
 
 }
 .signin-title{
@@ -303,6 +374,9 @@ span{
 .start a{
     color: #007185;
 }
+
+
+
 /** footer section **/
 
 .footer{
